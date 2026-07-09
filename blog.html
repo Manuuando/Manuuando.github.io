@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News & eventi — ArcisateGIOVANI</title>
+<meta name="description" content="Tutti gli eventi e le notizie di ArcisateGIOVANI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Arcisate<span>GIOVANI</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Apri menu">☰ Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html" aria-current="page">News & eventi</a></li>
+      <li><a href="chi-siamo.html">Chi siamo</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Bacheca aggiornata</p>
+    <h1>News & eventi</h1>
+    <p>Tutto quello che organizziamo, tutto quello che è successo. Aggiorna questa pagina ogni volta che c'è qualcosa di nuovo da annunciare.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="board">
+
+      <article class="flyer">
+        <span class="pin"></span>
+        <div class="date">Sabato 12 luglio · 20:00</div>
+        <span class="tag">Musica</span>
+        <h3>Titolo evento</h3>
+        <p>Descrizione dell'evento: cosa succede, dove, con chi. Sostituisci questo testo con i dettagli reali.</p>
+      </article>
+
+      <article class="flyer">
+        <span class="pin"></span>
+        <div class="date">Venerdì 18 luglio · 18:30</div>
+        <span class="tag">Incontro</span>
+        <h3>Titolo evento</h3>
+        <p>Descrizione dell'evento: cosa succede, dove, con chi. Sostituisci questo testo con i dettagli reali.</p>
+      </article>
+
+      <article class="flyer">
+        <span class="pin"></span>
+        <div class="date">Domenica 27 luglio · 15:00</div>
+        <span class="tag">Attività</span>
+        <h3>Titolo evento</h3>
+        <p>Descrizione dell'evento: cosa succede, dove, con chi. Sostituisci questo testo con i dettagli reali.</p>
+      </article>
+
+      <article class="flyer">
+        <span class="pin"></span>
+        <div class="date">Archivio · giugno</div>
+        <span class="tag">News</span>
+        <h3>Titolo articolo passato</h3>
+        <p>Racconta com'è andato un evento passato, con foto e ricordi. Ottimo per mostrare che il gruppo è attivo davvero.</p>
+      </article>
+
+      <article class="flyer">
+        <span class="pin"></span>
+        <div class="date">Archivio · maggio</div>
+        <span class="tag">News</span>
+        <h3>Titolo articolo passato</h3>
+        <p>Racconta com'è andato un evento passato, con foto e ricordi. Ottimo per mostrare che il gruppo è attivo davvero.</p>
+      </article>
+
+      <article class="flyer">
+        <span class="pin"></span>
+        <div class="date">Archivio · aprile</div>
+        <span class="tag">News</span>
+        <h3>Titolo articolo passato</h3>
+        <p>Racconta com'è andato un evento passato, con foto e ricordi. Ottimo per mostrare che il gruppo è attivo davvero.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a href="index.html" class="logo">Arcisate<span>GIOVANI</span></a>
+    <ul class="foot-nav">
+      <li><a href="blog.html">News & eventi</a></li>
+      <li><a href="chi-siamo.html">Chi siamo</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul>
+    <small>© <span id="year"></span> ArcisateGIOVANI</small>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

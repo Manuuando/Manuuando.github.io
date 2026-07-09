@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ArcisateGIOVANI — Associazione giovanile di Arcisate</title>
+<meta name="description" content="ArcisateGIOVANI organizza eventi, iniziative culturali e attività per i giovani di Arcisate. Scopri i prossimi appuntamenti.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Arcisate<span>GIOVANI</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Apri menu">☰ Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="blog.html">News & eventi</a></li>
+      <li><a href="chi-siamo.html">Chi siamo</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Arcisate, provincia di Varese</p>
+    <h1>Le cose belle di Arcisate <em>le facciamo noi.</em></h1>
+    <p class="lead">ArcisateGIOVANI è il collettivo che organizza eventi, serate e iniziative per e con i giovani del paese. Niente promesse da ufficio stampa: solo cose vere, fatte insieme.</p>
+    <div class="btn-row">
+      <a href="blog.html" class="btn btn-primary">Guarda i prossimi eventi</a>
+      <a href="chi-siamo.html" class="btn btn-secondary">Chi siamo</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <h2>In bacheca questa settimana</h2>
+      <a href="blog.html" class="see-all">Tutti gli eventi →</a>
+    </div>
+    <div class="board">
+
+      <article class="flyer">
+        <span class="pin"></span>
+        <div class="date">Sabato · 20:00</div>
+        <span class="tag">Musica</span>
+        <h3>Titolo evento</h3>
+        <p>Breve descrizione dell'evento: dove si tiene, cosa succede, perché venire.</p>
+      </article>
+
+      <article class="flyer">
+        <span class="pin"></span>
+        <div class="date">Venerdì · 18:30</div>
+        <span class="tag">Incontro</span>
+        <h3>Titolo evento</h3>
+        <p>Breve descrizione dell'evento: dove si tiene, cosa succede, perché venire.</p>
+      </article>
+
+      <article class="flyer">
+        <span class="pin"></span>
+        <div class="date">Domenica · 15:00</div>
+        <span class="tag">Attività</span>
+        <h3>Titolo evento</h3>
+        <p>Breve descrizione dell'evento: dove si tiene, cosa succede, perché venire.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap about-grid">
+    <div>
+      <p class="eyebrow" style="font-family:var(--display); text-transform:uppercase; letter-spacing:.12em; font-size:.85rem; color:var(--pine); font-weight:700; margin-bottom:14px;">Chi siamo</p>
+      <h2 style="font-family:var(--display); font-size:clamp(1.6rem,3vw,2.2rem); margin:0 0 18px; letter-spacing:-0.01em;">Un gruppo di giovani che organizza per altri giovani</h2>
+      <p style="color:var(--ink-soft); max-width:52ch; margin-bottom:28px;">Descrivi qui in due o tre frasi la storia, la missione e lo spirito di ArcisateGIOVANI: da quanto tempo esistete, cosa vi ha spinto a nascere, cosa vi rende diversi da un comitato tradizionale.</p>
+      <a href="chi-siamo.html" class="btn btn-secondary">Scopri di più</a>
+    </div>
+    <ul class="stat-list">
+      <li><span class="num">00</span><span class="label">eventi organizzati</span></li>
+      <li><span class="num">00</span><span class="label">volontari attivi</span></li>
+      <li><span class="num">0000</span><span class="label">anno di fondazione</span></li>
+    </ul>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a href="index.html" class="logo">Arcisate<span>GIOVANI</span></a>
+    <ul class="foot-nav">
+      <li><a href="blog.html">News & eventi</a></li>
+      <li><a href="chi-siamo.html">Chi siamo</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul>
+    <small>© <span id="year"></span> ArcisateGIOVANI</small>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chi siamo — ArcisateGIOVANI</title>
+<meta name="description" content="La storia e la missione di ArcisateGIOVANI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Arcisate<span>GIOVANI</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Apri menu">☰ Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">News & eventi</a></li>
+      <li><a href="chi-siamo.html" aria-current="page">Chi siamo</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">La nostra storia</p>
+    <h1>Chi siamo</h1>
+    <p>Sostituisci questo testo con il racconto vero di ArcisateGIOVANI: come è nata l'associazione, chi ne fa parte, cosa la muove.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap about-grid">
+    <div>
+      <h2 style="font-family:var(--display); font-size:clamp(1.6rem,3vw,2.2rem); margin:0 0 18px; letter-spacing:-0.01em;">La nostra missione</h2>
+      <p style="color:var(--ink-soft); max-width:56ch; margin-bottom:24px;">Scrivi qui due o tre paragrafi su cosa fa concretamente ArcisateGIOVANI: che tipo di eventi organizza, per chi, con quale spirito. Racconta un episodio o un evento specifico che rappresenti bene il gruppo.</p>
+      <p style="color:var(--ink-soft); max-width:56ch;">Puoi aggiungere qui anche come è strutturata l'associazione: se ci sono ruoli, gruppi di lavoro, un rapporto con l'amministrazione comunale, o con altre realtà del territorio.</p>
+    </div>
+    <ul class="stat-list">
+      <li><span class="num">0000</span><span class="label">anno di fondazione</span></li>
+      <li><span class="num">00</span><span class="label">volontari attivi</span></li>
+      <li><span class="num">00</span><span class="label">eventi organizzati</span></li>
+      <li><span class="num">00</span><span class="label">partner e collaborazioni</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Vuoi dare una mano?</h2>
+    </div>
+    <p style="color:var(--ink-soft); max-width:56ch; margin-bottom:28px;">Racconta qui come si entra a far parte del gruppo: incontri periodici, un canale social, un form di contatto. Rendi facile a chi legge capire il prossimo passo.</p>
+    <a href="contatti.html" class="btn btn-primary">Scrivici</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a href="index.html" class="logo">Arcisate<span>GIOVANI</span></a>
+    <ul class="foot-nav">
+      <li><a href="blog.html">News & eventi</a></li>
+      <li><a href="chi-siamo.html">Chi siamo</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul>
+    <small>© <span id="year"></span> ArcisateGIOVANI</small>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

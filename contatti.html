@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contatti — ArcisateGIOVANI</title>
+<meta name="description" content="Contatta ArcisateGIOVANI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Arcisate<span>GIOVANI</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Apri menu">☰ Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">News & eventi</a></li>
+      <li><a href="chi-siamo.html">Chi siamo</a></li>
+      <li><a href="contatti.html" aria-current="page">Contatti</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Parliamone</p>
+    <h1>Contatti</h1>
+    <p>Hai un'idea per un evento, vuoi collaborare o semplicemente saperne di più? Scrivici.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap contact-grid">
+    <div>
+      <!--
+        Nota per Manuele: GitHub Pages non gestisce l'invio del form (non ha un backend).
+        Per far funzionare davvero questo form, collega un servizio gratuito come Formspree
+        (formspree.io): basta cambiare l'action qui sotto con l'URL che ti forniscono.
+        Nel frattempo il form è pronto e già impaginato.
+      -->
+      <form action="https://formspree.io/f/IL_TUO_ID" method="POST">
+        <div class="field">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="messaggio">Messaggio</label>
+          <textarea id="messaggio" name="messaggio" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Invia messaggio</button>
+      </form>
+    </div>
+
+    <div class="contact-info">
+      <div>
+        <h3>Email</h3>
+        <p><a href="mailto:info@arcisategiovani.it">info@arcisategiovani.it</a></p>
+      </div>
+      <div>
+        <h3>Instagram</h3>
+        <p><a href="#" target="_blank" rel="noopener">@arcisategiovani</a></p>
+      </div>
+      <div>
+        <h3>Dove siamo</h3>
+        <p>Arcisate (VA)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a href="index.html" class="logo">Arcisate<span>GIOVANI</span></a>
+    <ul class="foot-nav">
+      <li><a href="blog.html">News & eventi</a></li>
+      <li><a href="chi-siamo.html">Chi siamo</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul>
+    <small>© <span id="year"></span> ArcisateGIOVANI</small>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
